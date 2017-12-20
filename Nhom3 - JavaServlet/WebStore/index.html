@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Web Store</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!-- templatemo 341 web store -->
+<!-- 
+Web Store Template 
+http://www.templatemo.com/preview/templatemo_341_web_store 
+-->
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js">
+
+/***********************************************
+* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "templatemo_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+<script language="javascript" type="text/javascript" src="scripts/mootools-1.2.1-core.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/mootools-1.2-more.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/slideitmoo-1.1.js"></script>
+<script language="javascript" type="text/javascript">
+	window.addEvents({
+		'domready': function(){
+			/* thumbnails example , div containers */
+			new SlideItMoo({
+						overallContainer: 'SlideItMoo_outer',
+						elementScrolled: 'SlideItMoo_inner',
+						thumbsContainer: 'SlideItMoo_items',		
+						itemsVisible: 5,
+						elemsSlide: 2,
+						duration: 200,
+						itemsSelector: '.SlideItMoo_element',
+						itemWidth: 171,
+						showControls:1});
+		},
+		
+	});
+
+	function clearText(field)
+	{
+		if (field.defaultValue == field.value) field.value = '';
+		else if (field.value == '') field.value = field.defaultValue;
+	}
+</script>
+
+</head>
+
+<body id="home">
+
+<div id="templatemo_wrapper">
+	<div id="templatemo_header">
+    	<div id="site_title">
+        	<h1><a href="#">Uy tín - Chất lượng</a></h1>
+        </div>
+        <div id="header_right">
+            <div id="templatemo_search">
+                <form action="#" method="get">
+                  <input type="text" value="Search" name="keyword" id="keyword" title="keyword" onfocus="clearText(this)" onblur="clearText(this)" class="txt_field" />
+                  <input type="submit" name="Search" value="" alt="Search" id="searchbutton" title="Search" class="sub_btn"  />
+                </form>
+            </div>
+         </div> <!-- END -->
+    </div> <!-- END of header -->
+    
+   <div id="templatemo_menu" class="ddsmoothmenu">
+        <ul>
+        	<li><a href="index.html" class="selected">Home</a></li>
+            <li><a href="products.html">Products</a>
+                <ul>
+                    <li><a href="#">Điện thoại</a></li>
+                    <li><a href="#">Tablet</a></li>
+                    <li><a href="#">Macbook</a></li>
+                    <li><a href="#">Phụ Kiện</a></li>
+                    <li><a href="#">Loa</a></li>
+              </ul>
+            </li>
+            
+            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html" class="selected">About Us</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        <br style="clear: left" />
+    </div> <!-- end of templatemo_menu -->
+    
+    <div id="templatemo_middle">
+    	<img src="images/templatemo_image_01.png" alt="Image 01" />
+    	<h1>Giới thiệu Web Store</h1>
+        <p>Với phương châm kinh doanh, “Giải pháp tối ưu – Giá cả hợp lý – Dịch vụ hoàn hảo”, toàn bộ nhân viên trong công ty luôn nỗ lực phấn đấu và làm việc hết mình để mang lại những sản phẩm, dịch vụ hoàn hảo nhất, chất lượng nhất và giá thành thấp nhất cho khách hàng.</p>
+    </div> <!-- END of middle -->
+    
+    <div id="templatemo_main_top"></div>
+    <div id="templatemo_main">
+    	<div id="product_slider">
+    		<div id="SlideItMoo_outer">	
+                <div id="SlideItMoo_inner">			
+                    <div id="SlideItMoo_items">
+                        <div class="SlideItMoo_element">
+                                <a href="#slide1" target="_parent">
+                                <img src="images/gallery/dt1.jpg" alt="product 1" /></a>
+                        </div>	
+                        <div class="SlideItMoo_element">
+                                <a href="#slide2" target="_parent">
+                                <img src="images/gallery/tablet.jpg" alt="product 2" /></a>
+                        </div>
+                        <div class="SlideItMoo_element">
+                                <a href="#slide3" target="_parent">
+                                 <img src="images/gallery/macbook.jpg" alt="product 3" /></a>
+                        </div>
+                        <div class="SlideItMoo_element">
+                                <a href="#slide4" target="_parent">
+                                <img src="images/gallery/dongho.jpg" alt="product 4" /></a>
+                        </div>
+                        <div class="SlideItMoo_element">
+                                <a href="#slide6" target="_parent">
+                                <img src="images/gallery/tainghe.jpg" alt="product 5" /></a>
+                        </div>
+                        <div class="SlideItMoo_element">
+                                <a href="#slide6" target="_parent">
+                                <img src="images/gallery/saccap.jpg" alt="product 6" /></a>
+                        </div>
+                        <div class="SlideItMoo_element">
+                                <a href="#slide5" target="_parent">
+                               <img src="images/gallery/sacduphong.jpg" alt="product 7" /></a>
+                        </div>
+                    </div>			
+                </div>
+            </div>
+            <div class="cleaner"></div>
+        </div>
+    <div id="templatemo_main">
+   		<div id="sidebar" class="float_l">    
+        <div class="sidebar_box"><span class="bottom"></span>
+            	<h3>Sản phẩm hot </h3>   
+                <div class="content"> 
+                	<div class="bs_box">
+                    	<a href="#"><img src="images/product/saccap.jpg" alt="product 06" /></a>
+                        <p><a href="#">Cáp ASWO Micro + Lightning SX007 (1m)</a></p>
+                        <p class="price">50.000</p>
+                        <div class="cleaner"></div>
+                    </div>
+                    <div class="bs_box">
+                    	<a href="#"><img src="images/product/loa1.jpg" alt="product 07" /></a>
+                        <p><a href="#">Loa Bluetooth Divoom AuraBulb (led light)</a></p>
+                        <p class="price">920.000</p>
+                        <div class="cleaner"></div>
+                    </div>
+                    <div class="bs_box">
+                    	<a href="#"><img src="images/product/tainghe.jpg" alt="product 05" /></a>
+                        <p><a href="#">Tai nghe Baseus Apple Airpods</a></p>
+                        <p class="price">110.000</p>
+                        <div class="cleaner"></div>
+                    </div>
+                    <div class="bs_box">
+                    	<a href="#"><img src="images/product/loa3.jpg" alt="product 13" /></a>
+                        <p><a href="#">Loa đèn Mipow Playbulb Zoocoro Bear</a></p>
+                        <p class="price">1.500.000</p>
+                        <div class="cleaner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div id="content">
+        	<div class="col col_14 product_gallery">
+            	<a href="productdetail.html"><img src="images/gallery/dt1.jpg" alt="product 1" /></a>
+                <h3>iPhone X 256Gb</h3>
+                <p class="product_price">31.199.000</p>
+                <a href="shoppingcart.html" class="add_to_cart">Thêm vào giỏ hàng</a>
+            </div>        	
+            <div class="col col_14 product_gallery">
+            	<a href="productdetail.html"><img src="images/product/tablet.jpg" alt="Product 02" /></a>
+                <h3>Apple iPad Pro 9.7 Cellular 32Gb</h3>
+                <p class="product_price">12.199.000</p>
+                <a href="shoppingcart.html" class="add_to_cart">Thêm vào giỏ hàng</a>
+            </div>        	
+            <div class="col col_14 product_gallery no_margin_right">
+            	<a href="productdetail.html"><img src="images/product/macbook.jpg" alt="Product 03" /></a>
+                <h3>MacBook Pro MPXV2 13 2017 256GB Touch Bar Gray</h3>
+                <p class="product_price">38.799.000</p>
+                <a href="shoppingcart.html" class="add_to_cart">Thêm vào giỏ hàng</a>
+            </div>        	
+            <div class="col col_14 product_gallery">
+            	<a href="productdetail.html"><img src="images/product/dongho.jpg" alt="Product 04" /></a>
+                <h3>Apple Watch Series 3 38mm Gray Aluminum Case/Black Nike Sport Band MQKY2</h3>
+                <p class="product_price">8.799.000</p>
+                <a href="shoppingcart.html" class="add_to_cart">Thêm vào giỏ hàng</a>
+            </div>        	
+            <div class="col col_14 product_gallery">
+            	<a href="productdetail.html"><img src="images/product/tainghe.jpg" alt="Product 05" /></a>
+                <h3>Tai nghe Baseus hít từ chống mất cho tai nghe Apple Airpods</h3>
+                <p class="product_price">110.000</p>
+                <a href="shoppingcart.html" class="add_to_cart">Thêm vào giỏ hàng</a>
+            </div>        	
+            <div class="col col_14 product_gallery no_margin_right">
+            	<a href="productdetail.html"><img src="images/product/saccap.jpg" alt="Product 06" /></a>
+                <h3>Cáp ASWO Micro + Lightning SX007 (1m)</h3>
+                <p class="product_price">50.000</p>
+                <a href="shoppingcart.html" class="add_to_cart">Thêm vào giỏ hàng</a>
+            </div>          	    	
+            <div class="col col_14 product_gallery">
+            	<a href="productdetail.html"><img src="images/product/loa1.jpg" alt="Product 07" /></a>
+                <h3>Loa Bluetooth Divoom AuraBulb (led light)</h3>
+                <p class="product_price">920.000</p>
+                <a href="shoppingcart.html" class="add_to_cart">Thêm vào giỏ hàng</a>
+            </div> 
+            <div class="col col_14 product_gallery no_margin_right">
+            	<a href="productdetail.html"><img src="images/product/dt2.jpg" alt="Product 08" /></a>
+                <h3>Samsung Galaxy S8 Plus Orchid Gray</h3>
+                <p class="product_price">20.490.000</p>
+                <a href="shoppingcart.html" class="add_to_cart">Thêm vào giỏ hàng</a>
+            </div>          	
+            <div class="col col_14 product_gallery">
+            	<a href="productdetail.html"><img src="images/product/sacduphong.jpg" alt="Product 09" /></a>
+                <h3>Pin dự phòng iCore 5000 mAh</h3>
+                <p class="product_price">199.000</p>
+                <a href="shoppingcart.html" class="add_to_cart">Thêm vào giỏ hàng</a>
+            </div>  
+        </div> <!-- END of content -->
+        <div class="cleaner"></div>
+    </div> <!-- END of main -->
+    
+    <div id="templatemo_footer">
+     	<div class="col col_13 no_margin_left">
+        	<h4>© 2017 WEB STORE</h4>
+            <ul class="footer_menu">
+            	<li><a href="#">Số ĐKKD: 0306999036 - Ngày Cấp Lần Đầu 01/01/2017</a></li>
+                <li><a href="#">Nơi Cấp: Phòng Đăng Ký Kinh Doanh - Sở Kế Hoạch Và Đầu Tư TP.Hồ Chí Minh</a></li>
+                <li><a href="#">Điện thoại: 1900.9090.90</a></li>
+                <li><a href="#">Email: webstore@gmail.com</a></li>
+                <li><a href="#">Địa Chỉ Trụ Sở: 1A, CVPM Quang trung, Q12, TPHCM.</a></li>
+              </ul> 
+        </div>
+    	<div class="col col_13 no_margin_center">
+        	<h4>HOTLINE</h4>
+            <ul class="footer_menu">
+			    <li><a href="#">Hotline chăm sóc khách hàng</a></li>
+                <li><a href="#">(028)33.00.12.00 1900.9090.90</a></li>				
+                <li><a href="#">Giải đáp thắc mắc</a></li>
+                <li><a href="#">Thời gian làm việc</a></li>	
+                <li><a href="#">T2 - T7: 9h00 - 18h00</a></li>
+                <li><a href="#">CN: 9h00 - 15h00</a></li>
+		  </ul>
+		</div>  
+		
+        <div class="col col_13 no_margin_right">
+        	<h4>About Us</h4>
+            <p>Mọi ý kiến đóng góp của quý khách sẽ là động lực để chúng tôi nâng cao chất lượng sản phẩm, dịch vụ nhằm thỏa mãn tối đa nhu cầu của quý khách. Một lần nữa, xin cám ơn quý khách đã ủng hộ công ty thời gian qua. Kính chúc quý khách một ngày mới tràn đầy niềm vui và hạnh phúc.</p>
+        </div>
+        
+        <div class="cleaner h40"></div>
+		<center>
+			Copyright © 2048 Web Store 2017. All rights reserved
+		</center>
+    </div> <!-- END of footer -->   
+   
+</div>
+</div>
+
+</body>
+</html>
